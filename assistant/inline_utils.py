@@ -399,13 +399,13 @@ async def cmd_buutton(client, cb):
         bttn = [
                 [
                     InlineKeyboardButton(
-                        text="Xtra Command Help",
+                        text="Xtra Commands",
                         callback_data=f"make_basic_button_False",
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        text="Main Command Help",
+                        text="Commands",
                         callback_data=f"make_basic_button_True",
                     )
                 ],
